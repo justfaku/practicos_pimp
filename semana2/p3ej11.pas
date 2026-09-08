@@ -43,7 +43,9 @@ begin
         aparece := true;
         write('+');
     end else
-    writeln(' ');
+    write(' ');
+
+    writeln;
 
     if not aparece then
     writeln(dig, ' no aparece en ', num)
